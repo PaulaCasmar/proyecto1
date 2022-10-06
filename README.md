@@ -1,6 +1,6 @@
 # proyecto1
 
-<h1>Proyecto 1</p>
+<h1>Proyecto 1</h1>
 
 <p>Proyecto realizado dentro del Bootcamp Campsite Academy.
 Creando una copia de su web.</p>
