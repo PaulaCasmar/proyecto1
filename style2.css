@@ -1,0 +1,757 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* DISEÑO NAV BAR  */
+
+ul.nav {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    list-style: none;
+    margin-bottom: 200px;
+}
+
+li.bar:hover {
+    scale: 1.2;
+    font-weight: bold;
+}
+
+li.bar {
+    display: flex;
+    margin: auto;
+    margin-top: -3px;
+    padding-bottom: 10px;
+}
+
+a {
+    text-decoration-line: none;
+    padding: 5px;
+    color: white;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    /* font-weight: bold; */
+}
+
+nav {
+    background-color: rgb(247, 163, 90);
+    width: 100%;
+    position: fixed;
+    margin-top: -30px;
+    height: 50px;
+}
+
+/* DISEÑO BACKGROUND */
+
+.logo {
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    text-align: center;
+}
+
+.logocampsite {
+    text-align: right;
+    padding-right: 15px;
+    margin-top: -103px;
+}
+
+.logo:hover {
+    scale: 1.1;
+}
+
+.logocampsite img {
+    border-radius: 50%;
+}
+
+.titulo h1 {
+    animation-duration: 6s;
+    animation-name: mymove;
+}
+
+@keyframes mymove {
+    from {
+        margin-left: 100%;
+        width: 100%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+.titulo {
+    text-align: center;
+    color: rgb(245, 132, 33);
+    padding-top: 100px;
+    margin: auto;
+    /* width: 30%; */
+}
+
+.background {
+    background-image: url("./imagenes/pc.jpg");
+    width: 95%;
+    height: 150px;
+    background-size: cover;
+    margin: auto;
+    background-position: center;
+    margin-top: 20px;
+}
+
+.background1 {
+    background-image: url("./imagenes/everyone.jpg");
+    width: 95%;
+    height: 150px;
+    background-size: cover;
+    margin: auto;
+    background-position: center;
+    margin-top: 20px;
+}
+
+.background2 {
+    background: linear-gradient(to right, transparent, rgb(144, 135, 134)), url("./imagenes/coding.jpg");
+    width: 95%;
+    height: 150px;
+    background-size: cover;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.background3 {
+    background-image: url("./imagenes/horario.jpg");
+    width: 95%;
+    height: 150px;
+    background-size: cover;
+    margin: auto;
+    background-position: center;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.background4 {
+    background-image: url("./imagenes/form.jpg");
+    width: 95%;
+    height: 150px;
+    background-size: cover;
+    margin: auto;
+    background-position: center;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+/* DISEÑO HOME */
+
+.prox {
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    text-decoration: underline 1px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 50px;
+    width: 100%;
+    height: 300px;
+    margin-top: 30px;
+}
+
+.fecha {
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.dia {
+    background-image: url("./imagenes/calendario.png");
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    margin: auto;
+    background-position: center;
+    border: 1px solid rgb(152, 150, 149);
+    text-align: center;
+    box-shadow: 4px 4px 5px rgb(152, 150, 149);
+    border-radius: 5px;
+    filter: grayscale();
+}
+
+.dia:hover {
+    scale: 1.2;
+    filter: none;
+}
+
+.fecha .dia .num {
+    font-size: 55px;
+    text-align: center;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.fecha .dia .day {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.fecha .dia .month {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+.curso {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 25px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.boton button {
+    font-size: 17px;
+    text-align: center;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+button:hover {
+    font-size: 130%;
+}
+
+/* DISEÑO CONOCENOS */
+
+.meet {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    width: 30%;
+    line-height: 1.8;
+
+}
+
+.conocenos p {
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-decoration: underline 1px;
+}
+
+.texto0 {
+    margin-top: 5px;
+    text-align: center;
+}
+
+.introduce {
+    font-weight: bold;
+    text-align: center;
+    margin: auto;
+}
+
+.mentores {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width: 90%;
+    margin-bottom: 60px;
+    justify-content: space-around;
+}
+
+.foto1:hover,
+.foto2:hover {
+    scale: 1.3;
+    filter: sepia();
+}
+
+.mentoring {
+    font-weight: bold;
+    text-align: center;
+    margin: auto;
+}
+
+.alex,
+.ema {
+    border: 1px solid rgb(245, 132, 33);
+    align-items: center;
+    text-align: center;
+    align-self: auto;
+    width: 40%;
+    box-shadow: 5px 8px 5px rgb(245, 132, 33);
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+}
+
+.ema img,
+.alex img {
+    height: 200px;
+    width: 200px;
+    margin-top: 10px;
+
+}
+
+.texto1 {
+    width: 100%;
+    margin-top: 25px;
+    text-align: center;
+    line-height: 1.5;
+    margin-bottom: 5px;
+}
+
+.texto1 .name {
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-weight: 800;
+    text-decoration-line: underline;
+}
+
+.texto1 .job {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+/* DISEÑO CONTACTO */
+
+.contactar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.contacto {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-decoration: underline 1px;
+}
+
+.contact {
+    font-weight: bold;
+    text-align: center;
+    margin: auto;
+}
+
+.telefono {
+    display: flex;
+    flex-direction: row;
+    margin-top: 13px;
+    align-items: center;
+}
+
+.telefono p.nump {
+    text-align: center;
+    margin-top: -5px;
+}
+
+.telefono img.phone,
+.correo img.mail {
+    height: 30px;
+    width: 30px;
+}
+
+.correo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.correo p.email {
+    text-align: center;
+    margin-top: -8px;
+    margin-left: 5px;
+    text-decoration-line: none;
+    color: black;
+}
+
+.telefono a {
+    text-decoration-line: none;
+    color: black;
+    margin-top: 5px;
+}
+
+
+.correo a {
+    text-decoration-line: none;
+    color: black;
+    margin-top: 10px;
+}
+
+.correo a :hover,
+.telefono a :hover {
+    background-color: rgb(244, 190, 142);
+    font-size: 110%;
+}
+
+/* DISEÑO BOOTCAMP */
+
+table {
+    margin-top: 45px;
+    margin-bottom: 50px;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    border-collapse: collapse;
+    caption-side: bottom;
+    background-image: linear-gradient(to left, rgb(244, 190, 142), white);
+    box-shadow: 5px 5px 5px lightgrey;
+
+}
+
+tfoot tr td {
+    font-style: oblique;
+    font-size: 10px;
+    padding: 2px;
+}
+
+.students {
+    font-size: 25px;
+    font-weight: 800;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    caption-side: bottom 15px;
+}
+
+td,
+th {
+    border: 2px solid rgb(247, 163, 90);
+    padding: 27px;
+}
+
+caption {
+    font-size: 10px;
+    margin-top: 7px;
+    font-style: italic;
+    text-align: right;
+}
+
+td:hover {
+    scale: 1.1;
+    font-weight: bold;
+}
+
+th {
+    background-color: rgb(247, 163, 90);
+    color: white;
+}
+
+.programs {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    width: 60%;
+    justify-content: space-around;
+    margin-top: 60px;
+    background-color: beige;
+    height: 360px;
+    padding: 10px;
+    border: 2px solid rgb(247, 163, 90);
+    border-radius: 35%;
+    box-shadow: 6px 6px 5px lightgrey;
+}
+
+.html,
+.css {
+    display: flex;
+    flex-direction: column;
+    /* margin-top: 20px; */
+    text-align: left;
+
+}
+
+.css ol li {
+    list-style-type: circle;
+}
+
+.html ol li {
+    list-style-type: upper-roman;
+}
+
+h2 {
+    margin-bottom: 15px;
+    text-decoration-line: underline;
+}
+
+.tags {
+    margin-bottom: 10px;
+    font-weight: 800;
+    margin-top: 10px;
+    text-align: left;
+}
+
+ul.atr {
+    list-style-type: square;
+}
+
+dl {
+    width: 40%;
+    margin: auto;
+    /* text-align: left; */
+    margin-top: 100px;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    border: 1px solid rgb(247, 163, 90);
+    padding: 15px;
+    box-shadow: 5px 5px 5px rgb(247, 163, 90);
+    border-radius: 6px;
+}
+
+dl dt {
+    font-weight: 800;
+    font-size: 20px;
+    margin-right: 70px;
+    margin-top: 10px;
+    text-align: justify;
+}
+
+dl dd {
+    text-align: justify;
+    margin-top: 5px;
+}
+
+dl p.our {
+    font-weight: 800;
+    font-size: 25px;
+    text-decoration-line: underline;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+dl dt:hover {
+    background-color: rgb(247, 163, 90);
+}
+
+
+/* DISEÑO FORMULARIO */
+
+.formulario {
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    text-decoration: underline 1px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form {
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    border: 2px solid rgb(247, 163, 90);
+    border-radius: 6px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(248, 246, 244);
+    box-shadow: 5px 5px 5px lightgrey;
+    height: 800px;
+}
+
+.datosp {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    justify-content: space-between;
+}
+
+.sex {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.datosp label {
+    margin: 10px;
+}
+
+.pform {
+    font-size: 19px;
+    font-weight: 800;
+    color: rgb(247, 163, 90);
+    margin-bottom: 10px;
+    margin-top: 25px;
+}
+
+.knowledge {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+    justify-content: justify;
+}
+
+.knowledge .k {
+    display: inline-flex;
+    justify-content: space-around;
+    margin-top: 10px
+}
+
+.knowledge .k input {
+    margin-left: 15px;
+    justify-content: space-evenly;
+    ;
+}
+
+.knowledge p {
+    margin-top: 10px
+}
+
+input,
+textarea,
+select {
+    border: 1px solid rgb(247, 163, 90);
+    border-radius: 4px;
+    background-color: rgb(237, 235, 232);
+    padding: 6px;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+input[type=submit],
+input[type=reset] {
+    background-color: rgb(210, 208, 206);
+    font-style: normal;
+    font-weight: 800;
+    padding: 5px;
+    margin-top: 15px;
+}
+
+.cursob{
+    display: flex;
+    flex-direction: column;
+}
+
+.curs{
+    justify-content: space-between;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+textarea{
+    height: 150px;
+    width: 70%;
+    margin: auto;
+}
+
+/* 
+DISEÑO GRACIAS */
+
+.formulario1 {
+    border: 2px solid rgb(247, 163, 90);
+    border-radius: 6px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(248, 246, 244);
+    box-shadow: 5px 5px 5px lightgrey;
+    width:40% ;
+    height: 200px;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.thanks {
+    font-weight: 800;
+    font-style: normal;
+    font-size: 35px;
+    text-decoration-line: none;
+    text-align: center;
+    margin-top: 22px;
+}
+
+
+
+
+
+
+
+
+
+/* DISEÑO FOOTER  */
+
+.bootcamp {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-decoration: underline 1px;
+    text-align: center;
+    margin: auto;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    position: absolute;
+    width: 100%;
+    background-color: rgb(247, 163, 90);
+    margin-top: 175px;
+}
+
+
+
+.logoscs {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 1px;
+    width: 100%;
+    text-align: center;
+}
+
+.copy {
+    text-align: center;
+    margin-bottom: 8px;
+    margin-top: 5px;
+    font-size: 9px;
+    color: white;
+}
+
+.logoscs a {
+    text-decoration-line: none;
+    color: white;
+    text-align: center;
+}
+
+.fa-brands:hover {
+    scale: 2.2;
+}

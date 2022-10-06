@@ -1,0 +1,180 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* DISEÑO NAVBAR */
+
+ul {
+    list-style-type: none;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+}
+
+li {
+    float: left;
+    margin-right: 5px;
+    background-color: #dddddd;
+    width: 100px;
+    height: 30px;
+    border: solid 2px black;
+    padding-top: 10px;
+}
+
+a {
+    padding: 10px;
+    color: black;
+    text-align: center;
+}
+
+/* DISEÑO BACKGROUND */
+
+.logo {
+    margin: 100px;
+    padding: 100px;
+    height: 100px;
+    text-align: center;
+    padding-top: 70px;
+
+}
+
+.background {
+    background-image: url("./imagenes/background.jpg");
+    width: 95%;
+    height: 170px;
+    margin: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 40px;
+}
+
+.logocampsite {
+    text-align: center;
+    margin-top: -400px;
+}
+
+.background .titulo {
+    text-align: center;
+    padding-top: 90px;
+}
+
+/* DISEÑO HOME */
+
+.prox {
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+}
+
+.fecha {
+    display: flex;
+    margin: auto;
+    border-bottom: 1px solid black;
+}
+
+.dia p {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.mes,
+.curso {
+    margin-right: 20px;
+}
+.curso{
+    font-weight: 700;
+}
+
+.boton {
+    align-self: center;
+}
+
+.fecha2{
+    border-bottom: 0px solid black;
+}
+
+/* DISEÑO CONTACTO */
+
+.contacto {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+}
+
+.informacion {
+    text-align: center;
+}
+
+.telefono {
+    text-align: center;
+}
+
+.correo {
+    text-align: center;
+}
+
+/* DISEÑO CONOCENOS */
+
+.conocenos {
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto0 {
+    text-align: center;
+    width: 70%;
+    margin-left: 200px;
+}
+
+.mentores {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    padding-top: 40px;
+}
+
+.alex {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.foto1 {
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+}
+
+.ema {
+    display: flex;
+    align-self: flex-start;
+}
+
+.foto2 {
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    width: 40%;
+}
+
+.emanuel {
+    text-align: left;
+    font-weight: 800;
+}
+
+.alexandra {
+    text-align: right;
+    font-weight: 800;
+}
