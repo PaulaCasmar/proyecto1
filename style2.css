@@ -17,10 +17,10 @@ ul.nav {
     margin-bottom: 200px;
 }
 
-li.bar:hover {
+/* li.bar:hover {
     scale: 1.2;
     font-weight: bold;
-}
+} */
 
 li.bar {
     display: flex;
@@ -32,15 +32,16 @@ li.bar {
 a {
     text-decoration-line: none;
     padding: 5px;
-    color: white;
+    color: black;
     text-align: center;
     margin: auto;
     margin-top: 20px;
-    /* font-weight: bold; */
+    font-weight: bold;
+    font-size: 20px;
 }
 
 nav {
-    background-color: rgb(247, 163, 90);
+    background-color: rgb(247, 163, 90, 0.9);
     width: 100%;
     position: fixed;
     margin-top: -30px;
@@ -62,9 +63,6 @@ nav {
     margin-top: -103px;
 }
 
-.logo:hover {
-    scale: 1.1;
-}
 
 .logocampsite img {
     border-radius: 50%;
@@ -90,8 +88,11 @@ nav {
 .titulo {
     text-align: center;
     color: rgb(245, 132, 33);
-    padding-top: 100px;
+    padding-top: 70px;
     margin: auto;
+    font-weight: 900;
+    font-size: 30px;
+    text-shadow: 5px 5px 4px black;
     /* width: 30%; */
 }
 
@@ -229,9 +230,6 @@ nav {
     padding-right: 3px;
 }
 
-button:hover {
-    font-size: 1.3;
-}
 
 /* DISEÑO CONOCENOS */
 
@@ -435,7 +433,7 @@ tfoot tr td {
     text-align: center;
     align-items: center;
     margin-top: 30px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     caption-side: bottom 15px;
 }
 
@@ -452,10 +450,10 @@ caption {
     text-align: right;
 }
 
-td:hover {
+/* td:hover {
     scale: 1.1;
     font-weight: bold;
-}
+} */
 
 th {
     background-color: rgb(247, 163, 90);
@@ -470,7 +468,7 @@ th {
     align-items: center;
     width: 60%;
     justify-content: space-around;
-    margin-top: 60px;
+    margin-top: 50px;
     background-color: beige;
     height: 360px;
     padding: 10px;
@@ -643,11 +641,18 @@ select {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-input[type=submit],
+input[type=submit] {
+    background-color: rgb(210, 208, 206);
+    font-style: normal;
+    font-weight: 900;
+    padding: 5px;
+    margin-top: 15px; 
+}
+
 input[type=reset] {
     background-color: rgb(210, 208, 206);
     font-style: normal;
-    font-weight: 800;
+    font-weight: 200;
     padding: 5px;
     margin-top: 15px;
 }
@@ -752,6 +757,6 @@ DISEÑO GRACIAS */
     text-align: center;
 }
 
-.fa-brands:hover {
+/* .fa-brands:hover {
     scale: 2.2;
-}
+} */
